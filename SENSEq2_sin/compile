@@ -1,0 +1,2 @@
+rm -r SENSE_module.so SENSE_module.c* build/
+python3 setup.py build_ext --inplace
