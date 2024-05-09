@@ -1,0 +1,28 @@
+511e6            # e-beam: Ee [eV]
+0.0              # e-beam: relative energy spread
+13.5e-13         # e-beam: sigma_e_x [m]
+13.5e-13         # e-beam: sigma_e_y [m]
+0.0              # e-beam: normalized horizontal emittance eps_x [m rad]
+0.0              # e-beam: normalized vertical emittance eps_y [m rad]
+1066e-9          # p-beam: wavelength [m]
+300               # p-beam: sig (normalized) [unitless]
+6.3e-6           # p-beam: sigma_p_x [m]
+6.3e-6           # p-beam: sigma_p_y [m]
+5.0              # p-beam: a0
+2                # p-beam: iTypeEnv (laser envelope type)
+0                # p-beam: modType (FM type)
+0.0              # p-beam: FM parameter
+0                # p-beam: crossing angle [rad]
+0                # aperture: aperture type =0 circular; =1 rectangular
+2.0              # aperture: distance from IP to aperture [m]
+0.000001         # aperture: if circ: theta_max; rect: x_aper
+0.000001         # aperture: if circ: dummy; rect: y_aper
+0.01             # aperture: start spectrum
+2.0             # aperture: end spectrum
+80000             # simulation: Nout (number of output point in the spectrum)
+12000000          # simulation: Ntot
+20                # simulation: Npart
+1                # simulation: N_MC
+0                # simulation: iFile =1: read ICs from file; <> 1: MC
+1                # simulation: iCompton =1: Compton; <>1: Thomson regime
+1               # simulation: radiation reaction model =3: e_crit
